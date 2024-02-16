@@ -18,13 +18,71 @@ If there is no new inforamtion in the chat ourput the user profile as it exists.
 # FORMAT
 ```
 <USER PROFILE START>
-    "name": ",
-    "age": ,
-    "email": "",
-    "preferences": {
-        "food": []
-        "music": []
-        "hobbies": []
+{
+  "personal_info": {
+    "name": "",
+    "age": 0,
+    "gender": "",
+    "location": ""
+  },
+  "preferences": {
+    "food": {
+      "likes": [],
+      "dislikes": []
+    },
+    "music": {
+      "genres": [],
+      "artists": []
+    },
+    "hobbies": [],
+    "entertainment": {
+      "movies": [],
+      "tvShows": [],
+      "books": [],
+      "games": []
     }
+  },
+  "personal_values": {
+    "important_life_events": [],
+    "goals": {
+      "short_term": [],
+      "long_term": []
+    },
+    "aspirations": [],
+    "fears": [],
+    "motivations": []
+  },
+  "interpersonal_relations": {
+    "family": [],
+    "friends": [],
+    "relationship_status": ""
+  },
+  "personality_traits": {
+    "big_five": {
+      "openness": 0,
+      "conscientiousness": 0,
+      "extraversion": 0,
+      "agreeableness": 0,
+      "neuroticism": 0
+    },
+    "mbti": ""
+  },
+  "communication_preferences": {
+    "preferred_channels": [],
+    "communication_style": ""
+  },
+  "experience_and_memories": {
+    "memorable_moments": [],
+    "lessons_learned": [],
+    "life_changing_experiences": []
+  },
+  "desires_and_needs": {
+    "emotional_needs": [],
+    "physical_needs": [],
+    "intellectual_needs": [],
+    "spiritual_needs": []
+  }
+}
+
 <USER PROFILE END>
 ```
